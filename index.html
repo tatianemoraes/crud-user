@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="datas">
+    <h1>Dados Pessoais</h1>
+    <form class="form">
+      <label class="input-name inputs" for="">Digite seu nome</label>
+      <input class="name" type="text">
+      <label class="input-age inputs"for="">Digite sua idade</label>
+      <input class="input-age-style age" type="number">
+      <label class="input-nationality inputs" for="">Digite sua nacionalidade</label>
+      <input class="nationality" type="text">
+      <label class="input-email inputs"for="">Digite seu e-mail</label>
+      <input class="email" type="email" required>
+      <div class="buttons">
+        <button class="btn btn-save" type="submit">Save</button>
+        <button class="btn btn-cancel" type="button">Cancel</button>
+      </div>
+    </form>
+  </div>
+  <div class="tb">
+    <table class="table-datas">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Nacionalidade</th>
+          <th>E-mail</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody class="tb-data">
+        <!-- <tr>
+          <td>Tatiane</td>
+          <td>23</td>
+          <td>Brasileira</td>
+          <td>tatiane_213@hotmail.com</td>
+          <td>
+            <a>
+              <i class="fas fa-trash"></i>
+            </a>
+          </td>
+        </tr> -->
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
